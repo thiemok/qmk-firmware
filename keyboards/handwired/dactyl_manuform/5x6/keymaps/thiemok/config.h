@@ -20,8 +20,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define USE_SERIAL
 
-//#define MASTER_LEFT
-// #define MASTER_RIGHT
 #define EE_HANDS
 // Rows are doubled-up
 
@@ -30,5 +28,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BOOTMAGIC_LITE_ROW_RIGHT 0
 #define BOOTMAGIC_LITE_COLUMN_RIGHT 16
 
+#define SERIAL_USE_MULTI_TRANSACTION
+#define SPLIT_NUM_TRANSACTIONS_USER 1
+
 // TT Amount of taps to toggle a layer on
 #define TAPPING_TOGGLE 2
+
+// rgb lighting
+#undef RGB_DI_PIN
+#define RGB_DI_PIN D1
+#undef RGBLED_NUM
+#define RGBLED_NUM 32
+#define RGBLED_SPLIT { 16, 16 }
+#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_SLEEP
+#define RGBLIGHT_SPLIT
+
+#define RGBLIGHT_LIMIT_VAL 150
