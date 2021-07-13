@@ -24,9 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Rows are doubled-up
 
 #define BOOTMAGIC_LITE_ROW 0
-#define BOOTMAGIC_LITE_COLUMN 1
-#define BOOTMAGIC_LITE_ROW_RIGHT 0
-#define BOOTMAGIC_LITE_COLUMN_RIGHT 16
+#define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_ROW_RIGHT 6
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 5
 
 #define SERIAL_USE_MULTI_TRANSACTION
 #define SPLIT_NUM_TRANSACTIONS_USER 1
