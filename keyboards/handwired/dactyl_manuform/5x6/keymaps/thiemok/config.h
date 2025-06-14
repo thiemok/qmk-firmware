@@ -35,13 +35,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TOGGLE 2
 
 // rgb lighting
-#undef RGB_DI_PIN
-#define RGB_DI_PIN D1
-#undef RGBLED_NUM
-#define RGBLED_NUM 32
+#undef WS2812_DI_PIN
+#define WS2812_DI_PIN D1
+#undef RGBLIGHT_LED_COUNT
+#define RGBLIGHT_LED_COUNT 32
 #define RGBLED_SPLIT { 16, 16 }
-#define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
 #define RGBLIGHT_SPLIT
+#define RGBLIGHT_EFFECT_ALTERNATING
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_EFFECT_SNAKE
+#define RGBLIGHT_EFFECT_TWINKLE
 
 #define RGBLIGHT_LIMIT_VAL 150
